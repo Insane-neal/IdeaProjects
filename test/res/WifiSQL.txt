@@ -1,0 +1,5 @@
+SELECT DISTINCT (
+`bssid`
+)
+FROM  `Wifi` 
+WHERE TIME >  '2015-04-10 16:37:19.22'order by `bssid`
